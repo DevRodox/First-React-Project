@@ -1,0 +1,14 @@
+.imgCarousel{
+    width: 100%;
+    min-height: 200%;
+}
+
+@media screen   and (max-width: 820px) {
+    .product-device{
+        margin-left: -25% !important;
+    }
+
+    .responsive-device{
+        margin-right: -25% !important;
+    }
+}

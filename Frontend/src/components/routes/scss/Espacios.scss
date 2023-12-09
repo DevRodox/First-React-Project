@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+
+*{
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+.centrado{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-right: -100%;
+}
+
+.espacio-sesión {
+    margin: 45px 0;
+    max-width: 50%; 
+    min-height: 85%;
+    opacity: .95;
+
+    .encabezado {
+        margin-bottom: 35px;
+    }
+}
+
+.espacio-productos {
+    margin: 15px 0 !important;
+
+    .encabezado {
+        margin-bottom: 35px !important;
+    }
+}
+
+.btn{
+    margin: 15px 0;
+}
+
+.linkColor, .iconBackColor{
+    color: mediumpurple;
+}
+
+.linkColor:hover{
+    color: blueviolet;
+}
+
+.imgPadding{
+    margin-top: 4%;
+    margin-left: -130%;
+}
+
+@media screen   and (max-width: 820px) {
+    .responsiveAlignment{
+        margin-left: 10% !important;
+    }
+
+    #searchCol{
+        margin-right: '-30%' !important;
+        width: '50%' !important;
+    }
+
+    .responsiveImg{
+        min-width: 25%;
+        padding-top: 13%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .responsiveCenter{
+        width: 100%;
+        margin-left: 20% !important;
+    }
+}
